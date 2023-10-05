@@ -33,6 +33,7 @@ every single project I have worked on over the span of high school + reflections
   - was designed to make "commands" (like linux console commands OR minecraft console commands) and command parsing a lot easier
   - used a node-tree design that I would become a huge proponent of
   - a modern analogue would be something like [clap-rs](https://github.com/clap-rs/clap)
+  - [**Had a wiki!**](https://auriium.github.io/Branch/#/)
 - [Beetle](https://github.com/auriium/Beetle)
   - A huge library and my second attempt at making a general purpose minecraft mod framework, this one contained a lot more utilities and also much more abstraction
 - [OpenTutorial](https://github.com/auriium/OpenTutorial)
@@ -84,5 +85,13 @@ when i joined SolarMC, my friend and mentor A248 had me switch to using 2FA beca
     - At runtime that SPI is fufilled with a lightweight hashmap storing the constructor lambdae, allowing the compile time tests to guaruntee that the code works and shaving off all reflection overhead
     - Contains a special DSL made entirely out of interfaces to replace annotation based DI
    
-## Junior Year
+## Junior Year and Senior Year++
 - [**FRC 2023 Robot: MCR**]
+  - First in-person team lead by me!!
+  - I introduced my framework, Mattlib, for the first time. It took the useful features from the year before like Loggables and brought them back alongside a unified setup system, providing abstractions over common motors and controllers
+  - It was too complicated for the average part time Java coder, which cost us valuable development time during the season, and I also didn't teach it properly, costing us more confusion. Learned a valuable dev-ops lesson, and made Mattlib2 less confusing to use and less obstructive/overarching.
+-[**BBLib** / Mattlib2](https://github.com/superyuuki/bblib)
+  - Logging framework + Networking framework + configuration
+  - some optimal control stuff
+- [ARC Starsector](https://github.com/superyuuki/starsector-arc-mod)
+  - Game mod for the videogame Starsector which adds in a unique faction complete with custom ships, weapons and FX.
