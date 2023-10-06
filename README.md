@@ -86,7 +86,9 @@ when i joined SolarMC, my friend and mentor A248 had me switch to using 2FA beca
     - Contains a special DSL made entirely out of interfaces to replace annotation based DI
    
 ## Junior Year and Senior Year++
-- [**FRC 2023 Robot: MCR**](
+- [BitBuckets Wiki](https://github.com/BitBucketsFRC4183/bitbucketsfrc4183.github.io)
+  - An automatically deploying wiki that takes markdown files in the git repository and deploys them using Github Actions to a Rustbook online
+- [**FRC 2023 Robot: MCR**](https://github.com/BitBucketsFRC4183/bitbucketsfrc4183.github.io)
   - First in-person team lead by me!!
   - I introduced my framework, Mattlib, for the first time. It took the useful features from the year before like Loggables and brought them back alongside a unified setup system, providing abstractions over common motors and controllers
   - It was too complicated for the average part time Java coder, which cost us valuable development time during the season, and I also didn't teach it properly, costing us more confusion. Learned a valuable dev-ops lesson, and made Mattlib2 less confusing to use and less obstructive/overarching.
