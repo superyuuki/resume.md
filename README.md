@@ -93,7 +93,10 @@ when i joined SolarMC, my friend and mentor A248 had me switch to using 2FA beca
   - I introduced my framework, Mattlib, for the first time. It took the useful features from the year before like Loggables and brought them back alongside a unified setup system, providing abstractions over common motors and controllers
   - It was too complicated for the average part time Java coder, which cost us valuable development time during the season, and I also didn't teach it properly, costing us more confusion. Learned a valuable dev-ops lesson, and made Mattlib2 less confusing to use and less obstructive/overarching.
 - [**BBLib** / Mattlib2](https://github.com/superyuuki/bblib)
-  - Logging framework + Networking framework + configuration
-  - some optimal control stuff
+  - Designed to fix the problems of Mattlib1! It is very flexible and much less complicated to use, with a focus on being simple and fast
+  - Logging framework that lets users define interfaces and get instantly working networking. Behind the hood, it generates custom bytecode implementations of the interfaces that are individually designed by an algorithm to be most performant. It also generates a flatbuffers schema on the fly
+  - based on reverse engineered flatbuffers reflection code, because by default flatbuffers does not let you generate fbs schemas on the fly.
+  - User never has to worry about any of that, and gets free threadsafe pubsub + config + tuning + logging
+  - Integrates with YuuKonfig allowing configuration and networking to happen in different places while being united in the code by a single interface.
 - [ARC Starsector](https://github.com/superyuuki/starsector-arc-mod)
   - Game mod for the videogame Starsector which adds in a unique faction complete with custom ships, weapons and FX.
